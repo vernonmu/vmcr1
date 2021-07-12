@@ -1,0 +1,77 @@
+.container {
+  /* background: green; */
+  padding: 0 4em;
+}
+
+.container h2 {
+  margin-top: 4px;
+  text-transform: capitalize;
+}
+
+.internContainer,
+.generalContainer {
+  border: 1px solid #ccc;
+  padding: 1em;
+  display: inline-block;
+}
+
+.generalContainer {
+  width: 25%;
+  overflow: hidden;
+}
+
+.internContainer {
+  width: 25%;
+}
+
+.profileLabel {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.profileGroup p {
+  margin: 0 0 4px;
+}
+
+.profileGroup {
+  margin: 10px 0 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row div {
+  margin-right: 4px;
+}
+
+.tabs {
+  width: 50%;
+}
+
+.navLabel {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.noteBody {
+  margin-bottom: 0;
+}
+
+.notesContainer {
+  max-width: 30%;
+}
+
+.timeStamp {
+  font-size: 10px;
+  margin-left: auto;
+  display: block;
+  text-align: right;
+}

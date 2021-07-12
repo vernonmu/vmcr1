@@ -1,0 +1,27 @@
+.studentList {
+  border: 1px solid #ccc;
+  padding: 1em;
+  width: 50vw;
+}
+
+.name {
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.pill {
+  font-size: 10px;
+  text-transform: uppercase;
+  background: #eaeaea;
+  color: #333;
+  padding: 2px 8px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  /* margin-left: 40px; */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
